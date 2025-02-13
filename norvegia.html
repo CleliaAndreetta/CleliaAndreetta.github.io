@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="it">
+    <head>
+        <title>Norvegia</title>
+        <meta charset="UTF-8">
+		<link href="index.css" rel="stylesheet" type="text/css">
+        <link href="mete.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+        <header>
+			<h1 id="titolo">Norvegia</h1>
+		</header>
+        <div>
+            <p id="testo">Puoi fare una corciera tra i fiordi norvegesi e vedere le balene.<br>
+                Puoi mangiare dell'ottimo salmone.<br>
+               Puoi fare un giro in motoslitta e se sarai fortunato potrai vedere l'aurora boreale.
+            </p>
+        </div>
+        <div id="tabella">
+            <table>
+                <tr>
+                    <th><img class="immagini" src="immaginiNorvegia/auroraBoreale.jpg" alt="immagine1"></th>
+                    <th><img class="immagini" src="immaginiNorvegia/oslo.jpg" alt="immagine2"></th>
+                    <th><img class="immagini" src="immaginiNorvegia/salmone.jpg" alt="immagine3"></th>
+                </tr>
+                <tr>
+                    <th><img class="immagini" src="https://www.travel4pictures.com/img/s/v-10/p1944119652-4.jpg" alt="immagine4"></th>
+                    <th><img class="immagini" src="immaginiNorvegia/capoNord.jpg" alt="immagine5"></th>
+                    <th><img class="immagini" src="immaginiNorvegia/img1.jpg" alt="immagine6"></th>
+                </tr>
+            </table>
+        </div>
+        <div id="divBottone">
+            <button id="bottone" type="button"><a id="link" href="index.html">Home</a></button>
+        </div>
+        <footer>Clelia Andreetta</footer>
+    </body>
+
+    <script>
+        const button = document.getElementById("bottone");
+        button.addEventListener("mouseover", function() {
+            button.style.backgroundColor = "#E6E6FA";
+        });
+
+        button.addEventListener("mouseout", function() {
+            button.style.backgroundColor = "#4682B4";
+        });
+    </script>
+</html>

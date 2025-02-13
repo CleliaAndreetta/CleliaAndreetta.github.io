@@ -1,0 +1,34 @@
+.immagini{
+    height: 300px;
+    width: 400px;
+}
+#testo{
+    font-family: calibri;
+    color: #252850;
+    font-size: 18px;
+    font-weight: bold;
+}
+#tabella{
+    position: relative;
+    width: 1220px;
+    left: 150px;
+    height: 700px;
+}
+#divBottone{
+    position: relative;
+    height: 50px;
+    text-align: right
+}
+#link{
+    color: white;
+    text-decoration: none;
+}
+#bottone{
+    height: 40px;
+    width: 80px;
+    font-family: calibri;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #4682B4;
+    color: white;
+}

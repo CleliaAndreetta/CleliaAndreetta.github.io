@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="it">
+    <head>
+        <title>Italia</title>
+        <meta charset="UTF-8">
+		<link href="index.css" rel="stylesheet" type="text/css">
+        <link href="mete.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+        <header>
+			<h1 id="titolo">Italia</h1>
+		</header>
+        <div>
+            <p id="testo">Puoi fare un giro in gondola tra i canali di Venezia, fare un giro al Colosseo, visitare la capitale della moda.<br>
+                Puoi fare una escursione sulle Dolomiti o fare il bagno nella meravigliose spiagge della Sardegna.<br>
+                Inoltre il buon cibo non manca mai. 
+            </p>
+        </div>
+        <div id="tabella">
+            <table>
+                <tr>
+                    <th><img class="immagini" src="immaginiItalia/roma.jpg" alt="immagine1"></th>
+                    <th><img class="immagini" src="immaginiItalia/milano.jpg" alt="immagine2"></th>
+                    <th><img class="immagini" src="immaginiItalia/pizza.jpg" alt="immagine3"></th>
+                </tr>
+                <tr>
+                    <th><img class="immagini" src="immaginiItalia/venezia.jpg" alt="immagine4"></th>
+                    <th><img class="immagini" src="immaginiItalia/sardegna.jpg" alt="immagine5"></th>
+                    <th><img class="immagini" src="https://img2.juzaphoto.com/002/shared_files/uploads/2586899_l.jpg" alt="immagine6"></th>
+                </tr>
+            </table>
+        </div>
+        <div id="divBottone">
+            <button id="bottone" type="button"><a id="link" href="index.html">Home</a></button>
+        </div>
+        <footer>Clelia Andreetta</footer>
+    </body>
+
+    <script>
+        const button = document.getElementById("bottone");
+        button.addEventListener("mouseover", function() {
+            button.style.backgroundColor = "#E6E6FA";
+        });
+
+        button.addEventListener("mouseout", function() {
+            button.style.backgroundColor = "#4682B4";
+        });
+    </script>
+</html>
