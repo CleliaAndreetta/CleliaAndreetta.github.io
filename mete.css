@@ -8,11 +8,14 @@
     font-size: 18px;
     font-weight: bold;
 }
-#tabella{
+#contenitore{
     position: relative;
-    width: 1220px;
-    left: 150px;
     height: 700px;
+    text-align: center;
+}
+#tabella{
+    margin: 0 auto;
+    display: table;
 }
 #divBottone{
     position: relative;

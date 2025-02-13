@@ -19,36 +19,27 @@ header{
 #divContenitore{
 	position: relative;
 	height:2050px;
-	top:-170px;
+	top:-130px;
+	text-align: center;
+}
+#tabella{
+	margin: 0 auto;
+    display: table;
+	color:#252850;
+    font-family: calibri;
+    font-weight: bold;
+    font-size: 28px;
+	list-style: none;
 }
 #divTesto1{
     position: relative;
     top:-250px;
     left: 20px;
 }
-#divTesto2{
-    position: relative;
-	width: 600px;
-	left:150px;
-	top:30px;
-}
-#divTesto3{
-    position: relative;
-	left: 850px;
-	top: -1950px;
-	width: 600px;
-}
 #testo1{
     font-family: calibri;
     font-weight: bold;
     font-size: 38px;
-	list-style: none;
-}
-#testo2{
-    color:#252850;
-    font-family: calibri;
-    font-weight: bold;
-    font-size: 28px;
 	list-style: none;
 }
 .link{
@@ -58,17 +49,6 @@ header{
     height: 350px;
     width: 450px;
 }
-#divDomanda{
-	position: relative;
-	top:-50px;
-}
-#domanda{
-	display: inline;
-	font-family: calibri;
-	font-size: 25px;
-	font-weight: bold;
-	color:#252850;
-}
 .bottone{
 	display: inline; 
 	margin-left: 10px; 
@@ -76,11 +56,6 @@ header{
 	border-color: #252850;
 	background-color: #4682B4;
     color: white;
-}
-#risposta{
-	font-family: calibri;
-	font-size: 20px;
-	color: #4682B4;
 }
 footer{
 	position:relative;
